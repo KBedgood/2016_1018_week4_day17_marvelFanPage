@@ -1,39 +1,97 @@
-            @import "mixins";
-            // Roboto:300,300i,400,500,700
-
+@import "mixins";
+// Roboto:300,300i,400,500,700
 body {
-  background-color: #F8F8F9; 
-  font-family: Arial;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.4em;
 }
 
-
 nav {
-  max-height:80px;
-
-  img {
-    max-height:60px;
-  }
-
-  .mainNav {
-      ul {
-            margin-top:20px;
-            li {
-                  display:inline;
-                  padding:20px 15px;
-
-                  &:hover {
-                        background-color: #F0F0F2;
-                  }
-
-                  a {
-                        padding:20px 15px;
-                        color:#828284;
-
-                        &:hover {
-                              background-color: #F0F0F2;
-                              text-decoration: none;
-                        }
-                  }
+            height: 80px;
+            background-color: black;
+            .logo {
+                        height: 80px;
             }
-      }
-  }
+}
+
+.mainNav {
+            ul {
+                        margin-top: 30px;
+                        li {
+                                    float: right;
+                                    letter-spacing: -1px;
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    text-transform: uppercase;
+                                    display: inline;
+                                    color: #b5b5b5;
+                                    &:hover {
+                                                color: #ED1B24;
+                                                text-decoration: none;
+                                    }
+                                    a {
+                                                padding: 30px 15px;
+                                                color: #b5b5b5;
+                                                &:hover {
+                                                            color: #ED1B24;
+                                                            background-color: #F0F0F2;
+                                                            text-decoration: none;
+                                                }
+                                    }
+                        }
+            }
+}
+
+// HOME RANDOMS
+.comicCharacter {
+            margin: 30px;
+            padding: 60px;
+            display: inline-block;
+            margin: 0 auto;
+            height: 265px;
+}
+
+.row h3 {
+            margin: 30px;
+            padding: 60px;
+            font-size: 12px;
+            text-align: left;
+}
+
+// CHARACTERS
+.comics {
+            margin: 30px;
+            padding: 60px;
+            display: inline-block;
+            margin: 0 auto;
+            height: 265px;
+}
+
+.comics img {
+            max-width: 120px;
+}
+
+.comics h3 {
+            font-size: 12px;
+}
+
+.learnButton {
+            font-size: 12px;
+            margin-bottom: 7px;
+            margin-left: 13px;
+}
+
+// CONTACT 
+#contact .contact {
+    color: #b5b5b5;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    line-height: 33px;
+    text-transform: uppercase;
+}
+
+// #kristie {
+//             @include footer();
+//             color: grey;
+// }
