@@ -8,16 +8,17 @@ $(document).ready(function() {
     // Also teach yourself how to integrate a google map into this page 
     // ( https://developers.google.com/maps/documentation/javascript/tutorials/adding-a-google-map ) 
 
-$.ajax({
 
-	var map = document.getElementsById("map");
 
-      var map;
+	var googleMap = document.getElementById("map");
+
       function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
+        googleMap = new google.maps.Map(googleMap, {
+          center: {lat: 30.0218667, lng: -90.0225584},
           zoom: 8
         });
       }
+
+      window.initMap = initMap;
 
 });

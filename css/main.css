@@ -4,6 +4,10 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.4em; }
 
+#map {
+  height: 500px;
+  width: 500px; }
+
 nav {
   height: 80px;
   background-color: black; }
@@ -33,16 +37,21 @@ nav {
 
 .comicCharacter {
   margin: 30px;
-  padding: 60px;
   display: inline-block;
   margin: 0 auto;
-  height: 265px; }
+  max-height: 235px; }
 
-.row h3 {
+.title {
   margin: 30px;
   padding: 60px;
-  font-size: 12px;
-  text-align: left; }
+  font-size: 18px;
+  text-align: left;
+  color: #b5b5b5;
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 33px;
+  text-transform: uppercase; }
 
 .comics {
   margin: 30px;
