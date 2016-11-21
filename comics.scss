@@ -1,0 +1,100 @@
+@import "mixins";
+// Roboto:300,300i,400,500,700
+// font-family: 'Bangers', cursive;
+body {
+     font-family: 'Roboto', sans-serif;
+     line-height: 1.4em;
+}
+
+#map {
+     height: 500px;
+     width: 500px;
+}
+
+nav {
+     height: 80px;
+     background-color: black;
+     .logo {
+          height: 80px;
+     }
+}
+
+.mainNav {
+     ul {
+          margin-top: 30px;
+          li {
+               float: right;
+               letter-spacing: -1px;
+               font-size: 18px;
+               font-weight: 700;
+               text-transform: uppercase;
+               display: inline;
+               color: #b5b5b5;
+               &:hover {
+                    color: #ED1B24;
+                    text-decoration: none;
+               }
+               a {
+                    padding: 30px 15px;
+                    color: #b5b5b5;
+                    &:hover {
+                         color: #ED1B24;
+                         background-color: #F0F0F2;
+                         text-decoration: none;
+                    }
+               }
+          }
+     }
+}
+
+// CHARACTERS
+.comics {
+     margin: 30px;
+     padding: 60px;
+     display: inline-block;
+     margin: 0 auto;
+     height: 265px;
+}
+
+.comics.col-md-2 {
+     height: 444px;
+}
+
+.comicArtwork {
+     width: 200px;
+}
+
+.comicTitle {
+     font-size: 14px;
+     font-family: Roboto;
+     font-weight: 700;
+     text-transform: uppercase;
+     color: #b5b5b5;
+     margin-top: 13px;
+}
+
+.comicsPrice {
+     font-size: 12px;
+     margin-bottom: 7px;
+     border: none;
+     color: red;
+     margin-top: -1px;
+}
+
+.details {
+     font-size: 9px;
+     margin-top: -21px;
+     width: 200px;
+     line-height: 1.4;
+}
+
+// CONTACT 
+#contact .contact {
+     color: #b5b5b5;
+     display: inline-block;
+     font-size: 18px;
+     font-weight: 700;
+     letter-spacing: 0px;
+     line-height: 33px;
+     text-transform: uppercase;
+}

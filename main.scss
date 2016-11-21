@@ -1,0 +1,127 @@
+@import "mixins";
+// Roboto:300,300i,400,500,700
+// font-family: 'Bangers', cursive;
+body {
+     font-family: 'Roboto', sans-serif;
+     line-height: 1.4em;
+}
+
+nav {
+     height: 80px;
+     background-color: black;
+     .logo {
+          height: 80px;
+     }
+}
+
+.mainNav {
+     ul {
+          margin-top: 30px;
+          li {
+               float: right;
+               letter-spacing: -1px;
+               font-size: 18px;
+               font-weight: 700;
+               text-transform: uppercase;
+               display: inline;
+               color: #b5b5b5;
+               &:hover {
+                    color: #ED1B24;
+                    text-decoration: none;
+               }
+               a {
+                    padding: 30px 15px;
+                    color: #b5b5b5;
+                    &:hover {
+                         color: #ED1B24;
+                         background-color: #F0F0F2;
+                         text-decoration: none;
+                    }
+               }
+          }
+     }
+}
+
+.container {
+     width: 990px;
+     margin: 0 auto;
+}
+
+.row.features {
+     .featuredCharacters {
+          h3.charTitle {
+               font-size: 24px;
+               font-family: Bangers;
+               color: #ED1B24;
+               padding-left: 1px;
+               letter-spacing: 2px;
+          }
+     }
+     .featChar {
+          .character {
+               .comicCharacter {
+                    width: 75%;
+               }
+               .name {
+                    font-size: 14px;
+                    margin-top: 0;
+               }
+               .charName {
+                    font-size: 14px;
+                    font-family: Roboto;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    padding-bottom: 33px;
+                    color: #b5b5b5;
+                    margin-top: 0;
+               }
+          }
+     }
+}
+
+.character.one {
+     img {
+          max-width: 80%;
+          .name {
+               font-size: 12px;
+               .charName {
+                    font-size: 12px;
+               }
+          }
+     }
+}
+
+.featuredComics {
+     h3 {
+          font-size: 24px;
+          font-family: Bangers;
+          color: #ED1B24;
+          padding-left: 1px;
+          letter-spacing: 2px;
+     }
+}
+
+.comics {
+     .comic {
+          img {
+               max-width: 100%;
+          }
+     }
+}
+
+h3.comicName {
+     font-size: 14px;
+     font-family: Roboto;
+     font-weight: 700;
+     text-transform: uppercase;
+     padding-bottom: 33px;
+     color: #b5b5b5;
+}
+
+.fan-info {
+      margin-top: 40px;
+}
+
+#contacts {
+      margin-top: 40px;
+}

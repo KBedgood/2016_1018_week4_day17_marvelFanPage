@@ -1,0 +1,70 @@
+/*Mixin Examples*/
+/*@include center()*/
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4em; }
+
+.fan-info {
+  width: 990px; }
+
+#map {
+  height: 500px;
+  width: 600px; }
+
+nav {
+  height: 80px;
+  background-color: black; }
+  nav .logo {
+    height: 80px; }
+
+.mainNav ul {
+  margin-top: 30px; }
+  .mainNav ul li {
+    float: right;
+    letter-spacing: -1px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline;
+    color: #b5b5b5; }
+    .mainNav ul li:hover {
+      color: #ED1B24;
+      text-decoration: none; }
+    .mainNav ul li a {
+      padding: 30px 15px;
+      color: #b5b5b5; }
+      .mainNav ul li a:hover {
+        color: #ED1B24;
+        background-color: #F0F0F2;
+        text-decoration: none; }
+
+.comics {
+  margin: 30px;
+  padding: 60px;
+  display: inline-block;
+  margin: 0 auto;
+  height: 265px; }
+
+.comics img {
+  max-width: 120px; }
+
+.comics h3 {
+  font-size: 12px; }
+
+.learnButton {
+  font-size: 12px;
+  margin-bottom: 7px;
+  margin-left: 13px; }
+
+#contact .contact {
+  color: #b5b5b5;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 33px;
+  text-transform: uppercase;
+  margin-top: 40px; }
+
+#map {
+  margin-top: 40px; }
