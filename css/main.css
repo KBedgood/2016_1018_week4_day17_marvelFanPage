@@ -4,6 +4,11 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.4em; }
 
+/*#map {
+  height: 500px;
+  width: 500px; }
+
+>>>>>>> 1f4ab98cefe4da86b8e5cb1cae594ea15e8fd7d0*/
 nav {
   height: 80px;
   background-color: black; }

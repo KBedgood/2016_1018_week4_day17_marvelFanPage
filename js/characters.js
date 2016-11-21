@@ -32,6 +32,7 @@
 
             <div class="hide">
             <p class="details">${comic.description}</p>
+
             </div>
             </div>`)
 
